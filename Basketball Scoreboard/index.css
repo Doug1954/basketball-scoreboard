@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #908080;
+    font-family: Cursed Timer ULiL Regular;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 0 50px 0;
+    background-color: #12124a;
+    font-family: Cursed Timer ULiL Regular;
+}
+
+.header > h3 {
+    margin-left: 40px;
+    color: white;
+}
+
+.header > .score {
+    font-family: Cursed Timer ULiL Regular;
+    margin: 0 0 20px 45px;
+    width: 60px;
+    height: 60px;
+    color: red;
+    background-color: #12121f;
+    font-size: 30px;
+    border-radius: 3px
+
+}
+
+.header > .size {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: #12124a;
+    border-radius: 3px;
+}
+
+.reset-score > button {
+    background-color: #2a3517;
+    color: chartreuse;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
